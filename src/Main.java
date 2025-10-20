@@ -4,5 +4,6 @@ public class Main {
         Numbers nr = new Numbers(values);
         System.out.println(nr.maxNumber());
         System.out.println(nr.minNumber());
+        System.out.println(nr.maximalSum());
     }
 }

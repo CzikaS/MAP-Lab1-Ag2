@@ -3,5 +3,6 @@ public class Main {
         int[] values = new int[]{9, 10, 56, 27, 93, 2};
         Numbers nr = new Numbers(values);
         System.out.println(nr.maxNumber());
+        System.out.println(nr.minNumber());
     }
 }

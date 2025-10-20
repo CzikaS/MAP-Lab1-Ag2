@@ -33,7 +33,15 @@ public class Numbers {
         int[] sortedValues = sortNumbers();
         int sum = 0;
         for (int i = numbers.length-1; i>0; i--)
-            sum += numbers[i];
+            sum += sortedValues[i];
+        return sum;
+    }
+
+    public int minimalSum(){
+        int[] sortedValues = sortNumbers();
+        int sum = 0;
+        for (int i = 0; i<numbers.length-1; i++)
+            sum += sortedValues[i];
         return sum;
     }
 }

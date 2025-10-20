@@ -5,5 +5,6 @@ public class Main {
         System.out.println(nr.maxNumber());
         System.out.println(nr.minNumber());
         System.out.println(nr.maximalSum());
+        System.out.println(nr.minimalSum());
     }
 }
